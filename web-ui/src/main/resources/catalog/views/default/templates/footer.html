@@ -1,26 +1,29 @@
 <ul class="nav navbar-nav" ng-show="::getApplicationInfoVisible()">
   <li class="navbar-text">
-    <span
+    <!--<span
       data-translate=""
-      data-translate-values="{platform: '{{info['system/platform/name']}}', version: '{{info['system/platform/version']}}', subversion: '{{info['system/platform/subVersion']}}'}"
+      data-translate-values="{platform: '{{info['system/platform/name']}}', {version: '{{info['system/platform/version']}}', subversion: '{{info['system/platform/subVersion']}}'}"
     >
       versionDetails</span
+    >-->
+    <span class="gn-footer-text"
+      >Geonetwork {{info['system/platform/version']}} (Somos Atlântico)</span
     >
   </li>
-  <li>
+  <!--<li class="ng-top">
     <a href="http://geonetwork-opensource.org/">
       <span data-translate="">about</span>
     </a>
   </li>
-  <li class="hidden-sm">
+  <li class="hidden-sm ng-top">
     <a href="https://github.com/geonetwork/core-geonetwork">
       <span class="fa fa-fw fa-github"></span>
       <span data-translate="">github</span>
     </a>
   </li>
-  <li>
+  <li class="ng-top">
     <a href="../../doc/api" title="{{'learnTheApi' | translate}}">API</a>
-  </li>
+  </li>-->
 </ul>
 <ul
   class="nav navbar-nav"
@@ -29,10 +32,10 @@
   data-language="{{lang}}"
 ></ul>
 <ul class="nav navbar-nav" ng-show="getSocialLinksVisible()">
-  <li class="navbar-text">
+  <!--<li class="navbar-text">
     <span data-translate="">shareOn</span>
   </li>
-  <li>
+  <li class="ng-top">
     <a
       href="https://twitter.com/share?url={{socialMediaLink | encodeURIComponent}}"
       target="_blank"
@@ -42,7 +45,7 @@
       <span class="fa fa-twitter"></span>
     </a>
   </li>
-  <li>
+  <li class="ng-top">
     <a
       href="https://www.facebook.com/sharer.php?u={{socialMediaLink | encodeURIComponent}}"
       target="_blank"
@@ -52,7 +55,7 @@
       <span class="fa fa-facebook"></span>
     </a>
   </li>
-  <li>
+  <li class="ng-top">
     <a
       href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{socialMediaLink | encodeURIComponent}}"
       target="_blank"
@@ -62,7 +65,7 @@
       <span class="fa fa-linkedin"></span>
     </a>
   </li>
-  <li>
+  <li class="ng-top">
     <a
       href="mailto:?subject={{info.site.name}}&amp;body={{socialMediaLink | encodeURIComponent}}"
       target="_blank"
@@ -72,7 +75,7 @@
       <span class="fa fa-envelope-o"></span>
     </a>
   </li>
-  <li>
+  <li class="ng-top">
     <a
       href=""
       data-ng-click="getPermalink('', socialMediaLink)"
@@ -93,7 +96,7 @@
     >
       <span class="fa fa-rss" />
     </a>
-  </li>
+  </li>-->
   <!--<li>
     <a href="rss.search?sortBy=changeDate&georss=simplepoint"
        title="{{'rssFeed' | translate}}"
@@ -101,4 +104,35 @@
       <span class="fa fa-rss"/>
     </a>
   </li>-->
+  <!-- Edição -->
+  <li class="partners-project">
+    <div>
+      <a href="https://www.eeagrants.gov.pt" target="_blank">
+        <img
+          class="icon-short"
+          src="https://somosatlantico.geomaster.pt/web/resources/images/client/ipma/eeagrants@4x.png"
+          alt="EEA Grants Portugal"
+        />
+      </a>
+      <a
+        href="https://www.portugal.gov.pt/pt/gc23/area-de-governo/economia-e-mar"
+        target="_blank"
+      >
+        <img
+          class="img-top-def"
+          src="https://somosatlantico.geomaster.pt/web/resources/images/client/ipma/OA_LOGO.png"
+          alt="Ministério da Economia e Mar"
+        />
+      </a>
+      <a
+        href="https://www.portugal.gov.pt/pt/gc23/area-de-governo/economia-e-mar"
+        target="_blank"
+      >
+        <img
+          src="https://somosatlantico.geomaster.pt/web/resources/images/client/ipma/logo-mem.png"
+          alt="portugal 2020"
+        />
+      </a>
+    </div>
+  </li>
 </ul>

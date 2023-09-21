@@ -1,4 +1,4 @@
-<div class="row gn-row-main hidden-print">
+<div class="row gn-row-main hidden-print" data-ng-if="searchInfo.hits.total.value != 0">
   <div data-ng-class="fluidLayout ? 'container-fluid' : 'container'">
     <div class="col-sm-offset-6" data-gn-index-error-panel=""></div>
 
@@ -67,7 +67,7 @@
     </div>
   </div>
 </div>
-<!-- /.gn-row-main -->
+<!-- /.<gn-row-main -->
 <div data-ng-if="showMosaic" data-gn-record-mosaic="-cl_status.key:obsolete" size="9" />
 
 <form
@@ -97,14 +97,14 @@
   <!-- /.gn-top-records -->
 </form>
 
-<div class="row" data-ng-show="searchInfo.hits.total.value == 0">
+<!--<div class="row" data-ng-show="searchInfo.hits.total.value == 0">
   <div data-ng-class="fluidLayout ? 'container-fluid' : 'container'">
     <div class="col-md-offset-2 col-md-8 alert alert-warning">
       <span data-translate="">noDataInCatalog</span>
       <div data-gn-need-help="quick-start-home"></div>
     </div>
   </div>
-</div>
+</div>-->
 
 <div
   class="gn-row-topics"

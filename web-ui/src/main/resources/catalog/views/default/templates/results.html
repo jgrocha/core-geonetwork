@@ -8,7 +8,7 @@
   <div class="row gn-row-results">
     <div class="col-sm-offset-6" data-gn-index-error-panel=""></div>
 
-    <div data-ng-class="fluidLayout ? 'container-fluid' : 'container'">
+    <div data-ng-class="fluidLayout ? '<container-fluid' : 'container'">
       <div
         class="gn-search-facet"
         data-ng-class="(isFilterTagsDisplayedInSearch === true
@@ -51,11 +51,12 @@
       </div>
       <!-- /.gn-search-facet -->
 
-      <div
+      <!-- <div
         class="container-fluid"
         data-ng-class="(isFilterTagsDisplayedInSearch === true
             || searchResults.facets.length > 0) ? 'col-md-9': 'col-md-12'"
-      >
+      >-->
+      <div class="container-fluid col-md-12">
         <div
           class="row gn-row-tools hidden-print"
           data-ng-show="searchResults.records.length > 0"
@@ -99,7 +100,14 @@
           ></div>
         </div>
         <div class="row">
-          <div class="col-xs-12 gn-nopadding-left gn-nopadding-right">
+          <!--<div class="col-xs-12 gn-nopadding-left gn-nopadding-right">-->
+          <div
+            class="
+              col-md-offset-2 col-md-8
+              gn-nopadding-left gn-nopadding-right
+              text-center
+            "
+          >
             <span class="loading fa fa-spinner fa-spin" data-ng-show="searching"></span>
 
             <div

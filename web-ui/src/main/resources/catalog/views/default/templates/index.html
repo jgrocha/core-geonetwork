@@ -42,7 +42,20 @@
   <cookiewarning></cookiewarning>
   <div class="" data-ng-controller="gnsDefault">
     <gn-extend-mainctrl></gn-extend-mainctrl>
-
+    <div
+      class="gn-main-home"
+      data-ng-if="activeTab == '/home' && searchInfo.hits.total.value == 0"
+    >
+      <!--<h2> {{searchInfo.hits.total.value}} </h2>-->
+      <div class="row ng-alert-home" data-ng-show="searchInfo.hits.total.value == 0">
+        <div data-ng-class="fluidLayout ? 'container-fluid' : 'container'">
+          <div class="col-md-offset-2 col-md-8 alert alert-warning text-center">
+            <span data-translate="">noDataInCatalog</span>
+            <!--<div data-gn-need-help="quick-start-home"></div>-->
+          </div>
+        </div>
+      </div>
+    </div>
     <div data-gn-saved-selections="">
       <div
         data-ng-include="'../../catalog/views/default/templates/home.html'"
