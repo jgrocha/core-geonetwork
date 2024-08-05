@@ -25,7 +25,8 @@ package org.fao.geonet.kernel.setting;
 
 import jeeves.server.context.ServiceContext;
 import jeeves.server.sources.http.ServletPathFinder;
-import org.apache.commons.lang.StringUtils;
+// import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.fao.geonet.ApplicationContextHolder;
 import org.fao.geonet.NodeInfo;
 import org.fao.geonet.constants.Geonet;

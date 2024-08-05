@@ -25,7 +25,7 @@ package org.fao.geonet.kernel.harvest.harvester;
 
 import jeeves.server.UserSession;
 import jeeves.server.context.ServiceContext;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.fao.geonet.Logger;
 import org.fao.geonet.constants.Geonet;
 import org.fao.geonet.csw.common.exceptions.InvalidParameterValueEx;

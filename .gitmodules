@@ -10,3 +10,11 @@
 [submodule "docs/manuals"]
 	path = docs/manuals
 	url = https://github.com/geonetwork/doc.git
+[submodule "iso19139.pt.mig.2.0"]
+	path = iso19139.pt.mig.2.0
+	url = https://github.com/wktsi/iso19139.pt.mig.2.0.git
+	branch = 3.4.x
+[submodule "schemas/iso19139.pt.mig.2.0"]
+	path = schemas/iso19139.pt.mig.2.0
+	url = https://github.com/wktsi/iso19139.pt.mig.2.0.git
+	branch = 3.4.x

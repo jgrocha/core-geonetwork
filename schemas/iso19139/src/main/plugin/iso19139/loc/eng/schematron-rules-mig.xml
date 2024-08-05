@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<strings>
+  <schematron.title>MIG Validation Rules</schematron.title>
+
+	
+  <MIG12>Dataset or Series must have a valid reference date</MIG12>
+  <MIG13>Resource Identifier</MIG13>
+  <MIG16>Resource must have a valid responsible party</MIG16>
+  <MIG17>Mandatory keywords</MIG17>
+  <MIG18>Mandatory resource constraints</MIG18>
+  <MIG24>Dataset or Series must have a valid spatial resolution</MIG24>
+  <MIG25>Dataset or Series must have a valid spatial representation type</MIG25>
+  <MIG41>Dataset or Series must have a valid distribution format</MIG41>
+  <MIG42>Valid Online Resource</MIG42>
+  <MIG51>Valid vertical extent</MIG51>  
+  <MIG52>Dataset or Series must have a bounding box extent</MIG52>
+  <MIG62>Must have information about Metadata Standard</MIG62>
+  <MIG65>Metadata language</MIG65>
+  <MIG66>Metadata must have a valid contact</MIG66>
+  
+  <MIG70>Dataset or Series must have a valid data quality information</MIG70>
+  
+  <MIG80>Metadata must have a valid spatial reference system</MIG80>
+
+  <alert.MIG12A>
+    <div>Reference Date has no value.</div>
+  </alert.MIG12A>
+  <alert.MIG12B>
+    <div>Reference Date type must have one of these values: create, publication, revision.</div>
+  </alert.MIG12B>
+  
+  <alert.MIG13A>
+    <div>Resource must have a unique identifier.</div>
+  </alert.MIG13A>  
+  
+  <alert.MIG16A>
+    <div>Must have at least one responsible party of type 'Point Of Contact'.</div>
+  </alert.MIG16A>
+  <alert.MIG16B>
+    <div>Organisation name and email are required.</div>    
+  </alert.MIG16B>
+   
+  <alert.MIG17A>
+    <div>Must have at least one keyword</div>
+  </alert.MIG17A>
+  <alert.MIG17B>
+    <div>Missing service taxonomy information (select on or more keyword from
+      "Classification of spatial data services" thesaurus)
+    </div>
+  </alert.MIG17B>
+  
+  <alert.MIG18A>
+    <div>Legal constraints is mandatory</div>
+  </alert.MIG18A>
+  
+  <alert.MIG24>
+    <div>Must have at least one spatial resolution.</div>
+  </alert.MIG24>
+  <alert.MIG24A>
+    <div>Spatial resolution cannot have both gmd:equivalentScale and gmd:distance, only one type must exists.</div>
+  </alert.MIG24A>
+  
+  <alert.MIG25>
+    <div>Must have at least one spatial representation type.</div>
+  </alert.MIG25>
+  
+  <alert.MIG41>
+    <div>Must have at least one distribution format.</div>
+  </alert.MIG41>
+  
+  <alert.MIG42>
+    <div>Must have at least one online resource.</div>
+  </alert.MIG42>
+  <alert.MIG42A>
+    <div>For a service, the online function code should be empty.</div>
+  </alert.MIG42A>
+  
+  <alert.MIG51>
+    <div>Cannot have more than one vertical extent.</div>
+  </alert.MIG51>
+    
+  <alert.MIG52>
+    <div>For a dataset or series, at least one extent of bounding box type has to be defined.
+      <br/>
+      MD_Metadata.hierarchyLevel = 'dataset' || 'series (i.e. the default value of this property on the parent)
+      implies count (extent.geographicElement.EX_GeographicBoundingBox)) &gt;=1.
+    </div>
+  </alert.MIG52>
+  
+  <alert.MIG62>
+    <div>Must have information about the metadata standard name.</div>
+  </alert.MIG62>
+  
+  <alert.MIG65A>
+    <div>Metadata language is mandatory.</div>
+  </alert.MIG65A>  
+  
+  <alert.MIG66A>
+    <div>Must have at least one metadata contact of type 'Point Of Contact'.</div>
+  </alert.MIG66A>
+  <alert.MIG66B>
+    <div>Organisation name and email are required.</div>    
+  </alert.MIG66B>  
+  
+  <alert.MIG70>
+    <div>Must have data quality information.</div>
+  </alert.MIG70>
+  <alert.MIG71>
+    <div>Need to have a scope equal to resource type.</div>
+  </alert.MIG71>
+  <alert.M72>
+    <div>Lineage is mandatory for spatial dataset and spatial dataset series.</div>
+  </alert.M72>  
+  
+  <alert.MIG80>
+    <div>Must have at least one spatial reference system.</div>
+  </alert.MIG80>
+  
+  <alert.MIG81>
+    <div>Spatial reference system must have a code and namespace.</div>
+  </alert.MIG81>  
+    
+</strings>

@@ -1,6 +1,6 @@
 <strings>
-  <schematron.title>URL Validation</schematron.title>
-  <invalidURLCheck>Online Resource Link Check</invalidURLCheck>
-  <alert.invalidURL><div>URL test failed. Current status is </div></alert.invalidURL>
-  <alert.validURL><div>Url is valid</div></alert.validURL>
+  <schematron.title>Validação do URL</schematron.title>
+  <invalidURLCheck>Verificação de link de recurso on-line</invalidURLCheck>
+  <alert.invalidURL><div>Falha no teste de URL. O estado atual é </div></alert.invalidURL>
+  <alert.validURL><div>URL é válido</div></alert.validURL>
 </strings>

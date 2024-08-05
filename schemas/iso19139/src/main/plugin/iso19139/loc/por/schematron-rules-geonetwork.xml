@@ -23,18 +23,18 @@
   -->
 
 <strings>
-  <schematron.title>Geonetwork Validation Rules</schematron.title>
-  <M500>[Language] - Metadata language is not defined and other language are declared and Main
-    metadata language MUST NOT be defined in other language section.
+  <schematron.title>Regras de validação de Geonetwork</schematron.title>
+  <M500>[Linguagem] - O idioma dos metadados não está definido e outro idioma é declarado. A
+   linguagem principal de metadados NÃO DEVE ser definida em outra seção de linguagem.
   </M500>
   <alert.M500>
-    <div>Check that the main metadata language is not defined and other languages (ie.
-      gmd:locale) elements exist (see Advanced view / metadata section).
+    <div>Verifique se o idioma principal dos metadados não está definido e outros idiomas (ie.
+      gmd:locale) existem elementos (consulte a secção Visualização avançada/metadados).
       <br/>
-      <span class="validationReportSuggestion">Suggestions: Define main metadata language or
-        remove other language definition.
+      <span class="validationReportSuggestion">Sugestões: Defina a linguagem principal dos metadados ou
+         remova outra definição de idioma.
       </span>
     </div>
   </alert.M500>
-  <report.M500>Main metadata language is:</report.M500>
+  <report.M500>A linguagem principal dos metadados é:</report.M500>
 </strings>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<strings>
+  <schematron.title>Regras de validação MIG</schematron.title>
+
+	
+  <MIG12>Conjunto de dados ou série deve ter uma data de referência válida</MIG12>
+  <MIG13>Identificador do recurso</MIG13>
+  <MIG16>O recurso deve ter um responsável válido</MIG16>
+  <MIG17>Palavras-chave obrigatórias</MIG17>
+  <MIG18>Restrições de recurso obrigatórias</MIG18>
+  <MIG24>O conjunto de dados ou série deve ter uma resolução espacial válida</MIG24>
+  <MIG25>O conjunto de dados ou série deve ter um tipo de representação espacial válido</MIG25>
+  <MIG41>O conjunto de dados ou série deve ter um formato de distribuição válido</MIG41>
+  <MIG42>Recurso Online Válido</MIG42>
+  <MIG51>Extensão vertical válida</MIG51>  
+  <MIG52>O conjunto de dados ou série deve ter uma extensão de caixa delimitadora</MIG52>
+  <MIG62>Deve ter informações sobre o padrão de metadados</MIG62>
+  <MIG65>Linguagem de metadados</MIG65>
+  <MIG66>Os metadados devem ter um contato válido</MIG66>
+  
+  <MIG70>Conjunto de dados ou série deve ter informações válidas de qualidade de dados</MIG70>
+  
+  <MIG80>Os metadados devem ter um sistema de referência espacial válido</MIG80>
+
+  <alert.MIG12A>
+    <div>A Data de Referência não tem valor.</div>
+  </alert.MIG12A>
+  <alert.MIG12B>
+    <div>O tipo de data de referência deve ter um destes valores: criação, publicação, revisão.</div>
+  </alert.MIG12B>
+  
+  <alert.MIG13A>
+    <div>O recurso deve ter um identificador único.</div>
+  </alert.MIG13A>  
+  
+  <alert.MIG16A>
+    <div>Deve ter pelo menos um responsável do tipo 'Ponto de contato'.</div>
+  </alert.MIG16A>
+  <alert.MIG16B>
+    <div>O nome e o email da organização são obrigatórios.</div>    
+  </alert.MIG16B>
+   
+  <alert.MIG17A>
+    <div>Deve ter pelo menos uma palavra-chave.</div>
+  </alert.MIG17A>
+  <alert.MIG17B>
+    <div>Informações de taxonomia de serviço ausentes (selecione uma ou mais palavras-chave em
+       Tesauro "Classificação dos serviços de dados espaciais")
+    </div>
+  </alert.MIG17B>
+  
+  <alert.MIG18A>
+    <div>Restrições legais são obrigatórias</div>
+  </alert.MIG18A>
+  
+  <alert.MIG24>
+    <div>Deve ter pelo menos uma resolução espacial.</div>
+  </alert.MIG24>
+  <alert.MIG24A>
+    <div>A resolução espacial não pode ter gmd:equivalentScale e gmd:distance, apenas um tipo deve existir.</div>
+  </alert.MIG24A>
+  
+  <alert.MIG25>
+    <div>Deve ter pelo menos um tipo de representação espacial.</div>
+  </alert.MIG25>
+  
+  <alert.MIG41>
+    <div>Deve ter pelo menos um formato de distribuição.</div>
+  </alert.MIG41>
+  
+  <alert.MIG42>
+    <div>Deve ter pelo menos um recurso online.</div>
+  </alert.MIG42>
+  <alert.MIG42A>
+    <div>Para um serviço, o código de função online deve estar vazio.</div>
+  </alert.MIG42A>
+  
+  <alert.MIG51>
+    <div>Não pode ter mais de uma extensão vertical.</div>
+  </alert.MIG51>
+    
+  <alert.MIG52>
+    <div>Para um conjunto de dados ou série, pelo menos uma extensão do tipo de caixa delimitadora deve ser definida.
+      <br/>
+      MD_Metadata.hierarchyLevel = 'dataset' || 'series (i.e. o valor padrão desta propriedade no parente)
+      implica contagem (extent.geographicElement.EX_GeographicBoundingBox)) &gt;=1.
+    </div>
+  </alert.MIG52>
+  
+  <alert.MIG62>
+    <div>Deve ter informações sobre o nome padrão dos metadados.</div>
+  </alert.MIG62>
+  
+  <alert.MIG65A>
+    <div>A linguagem dos metadados é obrigatória.</div>
+  </alert.MIG65A>  
+  
+  <alert.MIG66A>
+    <div>Deve ter pelo menos um contato de metadados do tipo 'Ponto de contato'.</div>
+  </alert.MIG66A>
+  <alert.MIG66B>
+    <div>O nome e o e-mail da organização são obrigatórios.</div>    
+  </alert.MIG66B>  
+  
+  <alert.MIG70>
+    <div>Must have data quality information.</div>
+  </alert.MIG70>
+  <alert.MIG71>
+    <div>Deve ter informações de qualidade de dados.</div>
+  </alert.MIG71>
+  <alert.M72>
+    <div>A linhagem é obrigatória para conjuntos de dados espaciais e séries de conjuntos de dados espaciais.</div>
+  </alert.M72>  
+  
+  <alert.MIG80>
+    <div>Deve ter pelo menos um sistema de referência espacial.</div>
+  </alert.MIG80>
+  
+  <alert.MIG81>
+    <div>O sistema de referência espacial deve ter um código e um namespace.</div>
+  </alert.MIG81>  
+    
+</strings>

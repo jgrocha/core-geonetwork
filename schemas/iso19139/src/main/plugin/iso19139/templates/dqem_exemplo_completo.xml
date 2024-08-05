@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd https://www.isotc211.org/2005/gmd/gmd.xsd http://www.isotc211.org/2005/gmx https://www.isotc211.org/2005/gmx/gmx.xsd http://www.isotc211.org/2005/srv http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>ec4f123f-27e9-41dc-ba3d-dc7dee99c344</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="por">Portuguese</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gco:CharacterString>Conjunto de dados geográficos</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Instituto Português do Mar e da Atmosfera, I.P. (IPMA, I.P.)</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#PT">Instituto Português do Mar e da Atmosfera, I.P. (IPMA, I.P.)</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>(351) 218 447 000</gco:CharacterString>
+              </gmd:voice>
+              <gmd:facsimile>
+                <gco:CharacterString>(351) 218 447 001</gco:CharacterString>
+              </gmd:facsimile>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Rua C do Aeroporto s/n</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#PT">Rua C do Aeroporto s/n</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Lisboa</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>1749-077</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Portugal</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#PT">Portugal</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:country>
+              <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>info@ipma.pt</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#PT">info@ipma.pt</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.ipma.pt</gmd:URL>
+              </gmd:linkage>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" codeSpace="ISOTC211/19115"/>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gco:DateTime>2024-04-04T09:36:44.601123Z</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:locale>
+    <gmd:PT_Locale id="EN">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:locale>
+    <gmd:PT_Locale id="PT">
+      <gmd:languageCode>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="por"/>
+      </gmd:languageCode>
+      <gmd:characterEncoding>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+      </gmd:characterEncoding>
+    </gmd:PT_Locale>
+  </gmd:locale>
+  <gmd:referenceSystemInfo xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>4258</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">4258</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:code>
+          <gmd:codeSpace>
+            <gco:CharacterString>EPSG</gco:CharacterString>
+          </gmd:codeSpace>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>template Exemplo DQEM</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">template Exemplo DQEM</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">template Example DQEM</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2018-09-07</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="ISOTC211/19115"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2021-12-08</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2024-03-11</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>a6c21060-eeac-440a-8cd8-97a37d184485</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:identifier>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+        <gco:CharacterString>Este conjunto de dados faz parte da apresentação belga de 2018 para a Diretiva-Quadro Estratégia Marinha (DQEM) ligada ao descritor 2, critério 1. Este conjunto de dados lista as espécies recentemente introduzidas encontradas no Mar de Portugal entre 2011 e 2016.</gco:CharacterString>
+        <gmd:PT_FreeText>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#PT">Este conjunto de dados faz parte da apresentação belga de 2018 para a Diretiva-Quadro Estratégia Marinha (DQEM) ligada ao descritor 2, critério 1. Este conjunto de dados lista as espécies recentemente introduzidas encontradas no Mar de Portugal entre 2011 e 2016.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+          <gmd:textGroup>
+            <gmd:LocalisedCharacterString locale="#EN">This dataset is part of the 2018 Belgian submission for the Marine Strategy Framework Directive (MSFD) linked to descriptor 2, criterion 1. This dataset lists the newly-introduced species encountered Portuguese Sea between 2011 and 2016.</gmd:LocalisedCharacterString>
+          </gmd:textGroup>
+        </gmd:PT_FreeText>
+      </gmd:abstract>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+          </gmd:individualName>
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Instituto Português do Mar e da Atmosfera, I.P. (IPMA, I.P.)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">Instituto Português do Mar e da Atmosfera, I.P. (IPMA, I.P.)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(351) 218 447 000</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString>(351) 218 402 468</gco:CharacterString>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Polo de Algés – Av. Brasília s/n</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#PT">Polo de Algés – Av. Brasília s/n</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Lisboa</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>1449-006</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Portugal</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#PT">Portugal</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:country>
+                  <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>info@ipma.pt</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#PT">info@ipma.pt</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115"/>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+          </gmd:individualName>
+          <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos (DGRM)</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos (DGRM)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+351 213 035 700</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Avenida Brasilia</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#PT">Avenida Brasilia</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#EN">Avenida Brasilia</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Lisboa</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:postalCode>
+                    <gco:CharacterString>1449-030</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>Portugal</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#PT">Portugal</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:country>
+                  <gmd:electronicMailAddress xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString>dgrm@dgrm.mm.gov.pt</gco:CharacterString>
+                    <gmd:PT_FreeText>
+                      <gmd:textGroup>
+                        <gmd:LocalisedCharacterString locale="#PT">dgrm@dgrm.mm.gov.pt</gmd:LocalisedCharacterString>
+                      </gmd:textGroup>
+                    </gmd:PT_FreeText>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://www.dgrm.pt/</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol gco:nilReason="missing">
+                    <gco:CharacterString/>
+                  </gmd:protocol>
+                  <gmd:name gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString/>
+                  </gmd:name>
+                  <gmd:description gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                    <gco:CharacterString/>
+                  </gmd:description>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher"/>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="ISOTC211/19115"/>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Oceano</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">Oceano</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Oceanographic geographical features</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString/>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">GEMET - INSPIRE themes, version 1.0</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>1.0</gco:CharacterString>
+              </gmd:edition>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>Reporting INSPIRE</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">Reporting INSPIRE</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Federal government</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Marine Strategy Framework Directive</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">introduction of animal species</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT"/>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">marine monitoring</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString/>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Keywords - GEMET - Concepts, version 4.2.1</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2021-06-01</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Portuguese Exclusive Economic Zone (Azores)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Portuguese Exclusive Economic Zone (Madeira)</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Portuguese Exclusive Economic Zone</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue=""/>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString/>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">Marine Regions</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-02-21</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString/>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">Directive 2008/56/EC</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString/>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#EN">INSPIRE Registry: Priority Datasets</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2018-04-04</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+          </gmd:useConstraints>
+          <gmd:otherConstraints xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>No limitations on public access.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">No limitations on public access.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#EN">No limitations on public access.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115"/>
+      </gmd:spatialRepresentationType>
+      <gmd:spatialResolution>
+        <gmd:MD_Resolution>
+          <gmd:equivalentScale>
+            <gmd:MD_RepresentativeFraction>
+              <gmd:denominator>
+                <gco:Integer>0</gco:Integer>
+              </gmd:denominator>
+            </gmd:MD_RepresentativeFraction>
+          </gmd:equivalentScale>
+        </gmd:MD_Resolution>
+      </gmd:spatialResolution>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="por">Portuguese</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115"/>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent xmlns:xs="http://www.w3.org/2001/XMLSchema">
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-34.1205</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-8.5361</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>31.0306</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>44.1142</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod xmlns:gml="http://www.opengis.net/gml" gml:id="d234782e706">
+                  <gml:beginPosition/>
+                  <gml:endPosition/>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributionFormat xmlns:gml="http://www.opengis.net/gml/3.2">
+        <gmd:MD_Format>
+          <gmd:name xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>application/xml</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">application/xml</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:name>
+          <gmd:version gco:nilReason="unknown">
+            <gco:CharacterString>1.0</gco:CharacterString>
+          </gmd:version>
+          <gmd:specification gco:nilReason="missing">
+            <gco:CharacterString/>
+          </gmd:specification>
+        </gmd:MD_Format>
+      </gmd:distributionFormat>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString/>
+              </gmd:individualName>
+              <gmd:organisationName xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>IPMA</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#PT">IPMA</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress gco:nilReason="missing" xsi:type="gmd:PT_FreeText_PropertyType">
+                        <gco:CharacterString/>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"/>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions/>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo xmlns:gml="http://www.opengis.net/gml/3.2">
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115"/>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:dataset gco:nilReason="missing">
+                <gco:CharacterString/>
+              </gmd:dataset>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:dataset gco:nilReason="missing">
+                <gco:CharacterString/>
+              </gmd:dataset>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report/>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>statement</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#PT">statement</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmd:MD_Metadata>

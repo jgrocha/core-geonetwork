@@ -613,6 +613,11 @@
       <artifactId>gn-schema-iso19115-3.2018</artifactId>
       <version>${project.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.geonetwork-opensource.schemas</groupId>
+      <artifactId>gn-schema-iso19139.pt.mig.2.0</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -1200,6 +1205,10 @@
                       <targetPath>${schema-plugins.dir}</targetPath>
                     </resource>
                     -->
+                    <resource>
+                      <directory>${project.basedir}/../schemas/iso19139.pt.mig.2.0/src/main/plugin</directory>
+                      <targetPath>${basedir}/src/main/webapp/WEB-INF/data/config/schema_plugins</targetPath>
+                    </resource>
                   </resources>
                 </configuration>
               </execution>

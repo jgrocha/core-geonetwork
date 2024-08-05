@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2001-2016 Food and Agriculture Organization of the
+  ~ United Nations (FAO-UN), United Nations World Food Programme (WFP)
+  ~ and United Nations Environment Programme (UNEP)
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or (at
+  ~ your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
+  ~
+  ~ Contact: Jeroen Ticheler - FAO - Viale delle Terme di Caracalla 2,
+  ~ Rome - Italy. email: geonetwork@osgeo.org
+  -->
+
+<strings>
+  <datacite.mandatory>Campos obrigatórios</datacite.mandatory>
+
+  <datacite.identifier.missing>O identificador está em falta. O identificador é uma string única
+    que identifica o recurso. Este campo é obrigatório.
+  </datacite.identifier.missing>
+  <datacite.identifier.present>O identificador é: </datacite.identifier.present>
+
+  <datacite.type.missing>O tipo está em falta. Verifique a secção de metadados e defina o nível de hierarquia. Este campo é obrigatório.
+  </datacite.type.missing>
+  <datacite.type.present>O tipo de recurso é: </datacite.type.present>
+
+  <datacite.title.missing>O título está em falta. Um nome ou título pelo qual um
+     recurso é conhecido. Talvez
+     o título de um conjunto de dados ou o
+     nome de uma parte software. Este campo é obrigatório.
+  </datacite.title.missing>
+  <datacite.title.present>O título é:</datacite.title.present>
+
+  <datacite.publicationDate.missing>Data de publicação está em falta. O ano em que os dados foram
+     ou serão tornados público
+     disponível. Verifique a data de publicação na identificação do recurso. Este campo é obrigatório.
+  </datacite.publicationDate.missing>
+  <datacite.publicationDate.present>A data de publicação é: </datacite.publicationDate.present>
+
+  <datacite.creator.missing>Creator is missing. The main researchers involved
+    in producing the data, or the authors of the publication, in
+    priority order. To supply multiple creators, repeat this
+    property. Check point of contact in resource identification with role 'pointOfContact' or 'custodian'. This field is mandatory.
+  </datacite.creator.missing>
+  <datacite.creator.found> creator(s) found.</datacite.creator.found>
+
+  <datacite.publisher.missing>O editor está em falta. O nome da entidade que
+     mantém, arquiva, publica
+     imprime, distribui, trata do lançamento,
+     emite ou produz o
+     recurso. Verifique a secção de distribuição, o editor é o primeiro contato do distribuidor. Este campo é obrigatório.
+  </datacite.publisher.missing>
+  <datacite.publisher.present>O editor é: </datacite.publisher.present>
+</strings>

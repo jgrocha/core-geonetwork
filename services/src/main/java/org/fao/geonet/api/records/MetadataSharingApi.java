@@ -1379,7 +1379,7 @@ public class MetadataSharingApi {
     private void checkUserProfileToPublishMetadata(UserSession userSession) {
         if (userSession.getProfile() != Profile.Administrator) {
             String allowedUserProfileToPublishMetadata =
-                org.apache.commons.lang.StringUtils.defaultIfBlank(sm.getValue(Settings.METADATA_PUBLISH_USERPROFILE), Profile.Reviewer.toString());
+                StringUtils.defaultIfBlank(sm.getValue(Settings.METADATA_PUBLISH_USERPROFILE), Profile.Reviewer.toString());
 
             // Is the user profile is higher than the profile allowed to import metadata?
             if (!UserUtil.hasHierarchyRole(allowedUserProfileToPublishMetadata, this.roleHierarchy)) {
@@ -1397,7 +1397,7 @@ public class MetadataSharingApi {
     private void checkUserProfileToUnpublishMetadata(UserSession userSession) {
         if (userSession.getProfile() != Profile.Administrator) {
             String allowedUserProfileToUnpublishMetadata =
-                org.apache.commons.lang.StringUtils.defaultIfBlank(sm.getValue(Settings.METADATA_UNPUBLISH_USERPROFILE), Profile.Reviewer.toString());
+                StringUtils.defaultIfBlank(sm.getValue(Settings.METADATA_UNPUBLISH_USERPROFILE), Profile.Reviewer.toString());
 
             // Is the user profile is higher than the profile allowed to import metadata?
             if (!UserUtil.hasHierarchyRole(allowedUserProfileToUnpublishMetadata, this.roleHierarchy)) {
