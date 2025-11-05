@@ -565,7 +565,7 @@
     "reportUsers-userLoginDateBegin": "Data de acesso do utilizador (inicial)",
     "reportUsers-userLoginDateEnd": "Data de login do utilizador (final)",
     "requestFrom": "requisição(ões) de",
-    "requirementDISABLED": "Ignore this group, the schematron will not run even if criteria match",
+    "requirementDISABLED": "Ignore este grupo; o Schematron não será executado mesmo que os critérios correspondam.",
     "requirementREPORT_ONLY": "Somente relate os erros, não afeta a validade dos metadados",
     "requirementREQUIRED": "Necessário para ser válido",
     "rss.search": "RSS",
