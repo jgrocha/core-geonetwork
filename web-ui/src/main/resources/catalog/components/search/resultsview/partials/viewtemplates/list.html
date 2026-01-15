@@ -110,6 +110,15 @@
               {{::c.organisation}} ({{::c.role | translate}})
             </p>
           </div>
+          <!-- dados abertos badge -->
+          <div class="gn-footer-center flex-fill text-center">
+            <span
+              class="gn-md-side-badge gn-policy-openData"
+              ng-if="md.cat && md.cat.join(' ').toLowerCase().includes('dados abertos')"
+            >
+              Dados abertos
+            </span>
+          </div>
         </div>
       </div>
     </div>

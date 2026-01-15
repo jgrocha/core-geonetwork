@@ -213,7 +213,21 @@
       </section>
     </xsl:if>
   </xsl:template>
+  
+  <xsl:template mode="myOpenDataBadge" match="gmd:MD_Metadata|*[@gco:isoType='gmd:MD_Metadata']">
+    <xsl:if test="
+      .//gmd:resourceConstraints/gmd:MD_LegalConstraints
+        /gmd:otherConstraints
+        /(gco:CharacterString | gmx:Anchor)
+          [contains(., 'creativecommons.org/licenses/by/4.0')]
+    ">
 
+      <section class="gn-policy gn-policy-openData gn-md-side-badge">
+        <span>Dados abertos</span>
+      </section>
+    </xsl:if>
+  </xsl:template>
+  
   <xsl:template mode="getOverviews" match="gmd:MD_Metadata|*[@gco:isoType = 'gmd:MD_Metadata']">
     <section class="gn-md-side-overview">
       <h2>
