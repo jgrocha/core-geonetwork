@@ -27,6 +27,7 @@
   <xsl:template mode="getMetadataTitle" match="*"/>
   <xsl:template mode="getMetadataAbstract" match="*"/>
   <xsl:template mode="getMetadataHierarchyLevel" match="*"/>
+  <xsl:template mode="myOpenDataBadge" match="*"/>
   <xsl:template mode="getOverviews" match="*"/>
   <xsl:template mode="getExtent" match="*"/>
   <xsl:template mode="getLicense" match="*"/>
@@ -206,6 +207,7 @@
             </xsl:if>
           </div>
           <div class="gn-md-side gn-md-side-advanced col-md-4">
+            <xsl:apply-templates mode="myOpenDataBadge" select="$metadata"/>
             <xsl:apply-templates mode="getOverviews" select="$metadata"/>
             <xsl:apply-templates mode="getExtent" select="$metadata"/>
 

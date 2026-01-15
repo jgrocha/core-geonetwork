@@ -75,6 +75,12 @@
       <div class="gn-md-contact">
         <!-- Handle string and array results -->
         {{[].concat(md[searchResultContact || 'OrgForResource'])[0]}}
+        <span
+          class="gn-md-side-badge gn-policy-openData pull-right"
+          ng-if="md.cat && md.cat.join(' ').toLowerCase().includes('dados abertos')"
+        >
+          Dados abertos
+        </span>
       </div>
     </div>
     <!-- /.gn-card-body -->
